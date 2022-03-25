@@ -12,3 +12,15 @@
   max-width: 370px;
 }
 }
+@media screen and (min-width: 1024px) {
+.subscribe {
+  transform: translateY(50%);
+}
+}
+@media screen and (max-width: 767px) {
+.subscribe-container {
+  flex-direction: column;
+  gap: 30px 0;
+}
+}
+
